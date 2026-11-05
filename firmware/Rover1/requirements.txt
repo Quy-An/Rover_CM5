@@ -1,0 +1,12 @@
+pyyaml
+numpy
+pymavlink
+pyrplidar
+pyserial
+pyubx2
+imusensor
+requests
+gpiozero
+easydict
+filterpy
+opencv-python-headless

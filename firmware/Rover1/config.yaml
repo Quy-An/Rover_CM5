@@ -1,0 +1,38 @@
+# CẤU HÌNH PHẦN CỨNG TRÊN XE ROVER
+hardware:
+  # Chân GPIO điều khiển Motor Trái
+  motor_left_pwm: 0      # Chân xuất xung điều khiển tốc độ
+  motor_left_dir: 1       # Chân điều khiển hướng (Tiến/Lùi)
+
+  # Chân GPIO điều khiển Motor Phải
+  motor_right_pwm: 2     # Chân xuất xung điều khiển tốc độ
+  motor_right_dir: 3      # Chân điều khiển hướng (Tiến/Lùi)
+
+  # Cổng kết nối cảm biến Lidar (Cắm trực tiếp vào cổng USB của Pi 5)
+  lidar_serial_port: "/dev/ttyUSB0"           
+  lidar_baudrate: 115200
+  lidar_motor_pwm: 500
+
+  gps_serial_port: "/dev/serial0"
+  gps_baudrate: 115200
+  
+# THÔNG SỐ ĐIỀU KHIỂN & AN TOÀN
+safety:
+  obstacle_threshold_min_mm: 200           # Khoảng cách phát hiện vật cản để phanh (mét)
+  obstacle_threshold_max_mm: 12000     # Ngưỡng tính là đã đến điểm GPS (mét)
+  obstacle_threshold_unknown: 65535
+  
+# CẤU HÌNH STREAM VIDEO TỪ CAMERA
+video:
+  laptop_ip: "100.95.155.80"
+  port: 5600
+  width: 640
+  height: 480
+  framerate: 30
+  rotation: 180
+  format : "I420"
+
+# CẤU HÌNH KẾT NỐI MAVLINK (QGROUNDCONTROL TRÊN LAPTOP)
+mavlink_qgc:
+  laptop_ip: "100.95.155.80"
+  udp_port: 14550

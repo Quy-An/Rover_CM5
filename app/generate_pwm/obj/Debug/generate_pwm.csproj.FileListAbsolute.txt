@@ -1,0 +1,14 @@
+D:\IUH\KLTN\app\generate_pwm\bin\Debug\generate_pwm.exe.config
+D:\IUH\KLTN\app\generate_pwm\bin\Debug\generate_pwm.exe
+D:\IUH\KLTN\app\generate_pwm\bin\Debug\generate_pwm.pdb
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.csproj.AssemblyReference.cache
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.Form1.resources
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.Properties.Resources.resources
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.csproj.GenerateResource.cache
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.csproj.CoreCompileInputs.cache
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.exe
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.pdb
+D:\IUH\KLTN\app\generate_pwm\bin\Debug\generate_pwm.exe.manifest
+D:\IUH\KLTN\app\generate_pwm\bin\Debug\generate_pwm.application
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.exe.manifest
+D:\IUH\KLTN\app\generate_pwm\obj\Debug\generate_pwm.application
